@@ -108,7 +108,7 @@ logo = """
 \x1b[1;36m NOTE         : 1ST CLEAR TERMUX MEMORY DATA
 \x1b[1;91m DISCLAMIAR   : FOR EDUCATIONAL PERPOSE
 \x1b[1;93m COMMAND L.S  : TOKEN
-\x1b[1;94m COMMAND R.S  : COOCKIES
+\x1b[1;94m COMMAND R.S  : COOKIES
 \x1b[1;95m>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
@@ -194,7 +194,7 @@ def cookies():
 
 def login_token():
     print logo
-    token = raw_input('\n  put token Here  : ')
+    token = raw_input('\n  ADD HERE TOKEN -> : ')
     print ' [+] Please wait..'
     try:
         otw = requests.get('https://graph.facebook.com/me?access_token=' + token)
