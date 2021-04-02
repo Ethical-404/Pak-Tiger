@@ -98,17 +98,17 @@ logo = """
    *_ꙮ⃢▄▆▇█�⃢✿⁍⃢🇪⃢⁌✿⃢��⃢✿⁍⃢🇪⃢⁌✿⃢��⃢✿⁍⃢🇪⃢⁌✿⃢�⃢✿⁍⃢🇪⃢⁌✿⃢��█▇▆▄⃢ꙮ_*
 
 \x1b[1;95m>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-\x1b[1;95m NAME         : FAROOQ ANSARI 
-\x1b[1;95m CYBER NAME   : MAFIA-KILLER 
-\x1b[1;95m WHATSAPP NO  : +92132197796 
-\x1b[1;95m WARNING      : DON,T CALL ME ONLY TEXT
-\x1b[1;95m NOTE         : 1ST CHANGE YOUR MOBILE GMAIL
-\x1b[1;95m NOTE         : USE 4GB YA 6GB RAM MOBILE
-\x1b[1;95m NOTE         : USE FAST 4G SIM NET
-\x1b[1;95m NOTE         : 1ST CLEAR TERMUX MEMORY DATA
-\x1b[1;95m DISCLAMIAR   : DON,T USE  ILLIGAL WAY
-\x1b[1;95m COMMAND TYPE : WITH LOGIN BY TOKEN
-\x1b[1;95m COMMAND NAME : FILE CLONING
+\x1b[1;91m NAME         : ARBAB MEMON
+\x1b[1;36m CYBER NAME   : ETHICL-404
+\x1b[1;91m WHATSAPP NO  : +923003023263
+\x1b[1;93m WARNING      : DONT USE PROXY IN THIS CODE
+\x1b[1;94m NOTE         : ALREADY ADDED 2 PROXIES 
+\x1b[1;95m NOTE         : DONT OPEN EXTRA TAB 
+\x1b[1;91m NOTE         : RM -RF PAK-TIGER
+\x1b[1;36m NOTE         : 1ST CLEAR TERMUX MEMORY DATA
+\x1b[1;91m DISCLAMIAR   : FOR EDUCATIONAL PERPOSE
+\x1b[1;93m COMMAND L.S  : TOKEN
+\x1b[1;94m COMMAND R.S  : COOCKIES
 \x1b[1;95m>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
