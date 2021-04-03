@@ -131,16 +131,16 @@ pw = []
 target = []
 
 
-def yayanxd():
+def arbabmemon():
     print logo
     print
     print ' [1] Login cookies'
     print ' [2] Login Token'
     print ' [0] Exit'
     print
-    pilih_yayanxd()
+    pilih_arbabmemon()
 
-def pilih_yayanxd():
+def pilih_arbabmemon():
     moch = raw_input(' [*] Choose an option >>  ')
     if moch == '':
         print '\n [!] Wrong Input'
@@ -210,17 +210,17 @@ def login_token():
         print '\n \x1b[1;97m[\x1b[1;93m!\x1b[1;97m] Token expire'
         time.sleep(1)
         os.system('clear')
-        yayanxd()
+        arbabmemon()
         
 
-def moch_yayan():
+def moch_arbab():
         os.system("clear")
         try:
             token=open('login.txt','r').read()
         except IOError:
             os.system('clear')
             os.system('rm -rf login.txt')
-            yayanxd()
+            arbabmemon()
         try:
             nama = s.get(api.format("me?access_token=%s"%(token)),headers=hea).json()["name"]
         except KeyError:
@@ -229,7 +229,7 @@ def moch_yayan():
            os.system('rm -rf login.txt')
            os.system('clear')
            time.sleep(1)
-           yayanxd()
+           arbabmemon()
         except requests.exceptions.ConnectionError:
           print " [!] no internet connection"
           exit()
@@ -268,7 +268,7 @@ def pilih_kontol():
             print '\n [!] Wrong Input'
             time.sleep(1.7)
             os.system('clear')
-            moch_yayan()
+            moch_arbab()
 
 def teman():
         global token
@@ -282,7 +282,7 @@ def teman():
         if ih in [""]:
                 print "\n [!] please fill it right"
                 time.sleep(1.7)
-                moch_yayan()
+                moch_arbab()
         try:
             os.mkdir("dump")
         except:pass
@@ -301,7 +301,7 @@ def teman():
         except OSError:
             print "\n [!] failed to save file "
             time.sleep(1.7)
-            moch_yayan()
+            moch_arbab()
 def publik():
         global token
         try:
@@ -309,7 +309,7 @@ def publik():
         except IOError:
             exit("  [!] token invalid ")
             os.system('rm -rf login.txt')
-            yayanxd()
+            arbabmemon()
                 
         ui = raw_input(" [?] public id : ")
         ih = raw_input(" [?] nama file : ")
@@ -317,7 +317,7 @@ def publik():
         if ui in [""]:
             print "\n [!] please fill it right"
             time.sleep(1.7)
-            moch_yayan()
+            moch_arbab()
         try:
             os.mkdir("dump")
         except:pass
@@ -336,7 +336,7 @@ def publik():
         except OSError:
             print "\n [!] failed to save file "
             time.sleep(1.7)
-            moch_yayan()
+            moch_arbab()
 
 def followers():
         global token
@@ -351,7 +351,7 @@ def followers():
         if ui in [""]:
             print "\n [!] the correct content"
             time.sleep(1.7)
-            moch_yayan()
+            moch_arbab()
         try:
             os.mkdir("dump")
         except:pass
@@ -370,7 +370,7 @@ def followers():
         except OSError:
             print "\n [!] failed to save "
             time.sleep(1.7)
-            moch_yayan()
+            moch_arbab()
 def likes():
         global token
         try:
@@ -383,7 +383,7 @@ def likes():
         if ih in [""]:
             print "\n [!] the correct content"
             time.sleep(1.7)
-            moch_yayan()
+            moch_arbab()
         try:
             os.mkdir("dump")
         except:pass
@@ -415,7 +415,7 @@ def crack():
         if file in [""]:
                 print " [!] file does not exist"
                 time.sleep(1.7)
-                moch_yayan()        
+                moch_arbab()        
         try:
             fil = open(file,"r").readlines()
             for id in fil:
@@ -518,5 +518,5 @@ def results(Successful, Checkpoint):
         print ' [!] You got no results Try Again'
 
 if __name__=="__main__":
-        moch_yayan()
-        yayanxd()
+        moch_arbab()
+        arbabmemon()
