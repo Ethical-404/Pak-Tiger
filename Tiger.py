@@ -146,7 +146,7 @@ def pilih_arbabmemon():
         print '\n [!] Wrong Input'
         time.sleep(1.7)
         os.system('clear')
-        yayanxd()
+        arbabmemon()
     elif moch == '1':
     	os.system('clear')
         cookies()
@@ -160,7 +160,7 @@ def pilih_arbabmemon():
         print '\n [!] Wrong Input'
         time.sleep(1.7)
         os.system('clear')
-        yayanxd()
+        arbabmemon()
 
 def cookies():
         print logo
@@ -205,7 +205,7 @@ def login_token():
         zedd.close()
         jalan('\n \x1b[1;93m[\x1b[1;95m√\x1b[1;96m]\x1b[1;92m Login Successfull')
         time.sleep(1)
-        moch_yayan()
+        moch_arbab()
     except KeyError:
         print '\n \x1b[1;97m[\x1b[1;93m!\x1b[1;97m] Token expire'
         time.sleep(1)
@@ -250,7 +250,7 @@ def pilih_kontol():
            print '\n [!] Wrong Input'
            time.sleep(1.7)
            os.system('clear')
-           moch_yayan()
+           moch_arbab()
         elif yan =="1":
                 teman()
         elif yan =="2":
@@ -277,7 +277,7 @@ def teman():
         except IOError:
             print " [!] ookies/token invalid"
             os.system('rm -rf login.txt')
-            yayanxd()
+            arbabmemon()
         ih = raw_input("\n [?] nama file : ")
         if ih in [""]:
                 print "\n [!] please fill it right"
