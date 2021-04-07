@@ -121,7 +121,7 @@ def gets_dict_cookies(cookies):
 		return result
 
 def log_token():
-	data = raw_input("   [•] Token :")
+	data = raw_input("    Token :")
 	try:
 		me = requests.get('https://graph.facebook.com/me?access_token='+data)
 		a = json.loads(me.text)
