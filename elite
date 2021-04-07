@@ -1,8 +1,6 @@
-# Decompiled By RandiSr
-# Github : https://github.com/RANDIOLOY
-#-*-coding:utf-8-*-
 
-#Create & Recode By Dapunta & Rizal
+
+#Create & Recode By Arbab Memon
 #Lu Mau Recode, Mau Lu Apain Terserah Bro, Tapi Hargai Lah Karya Kami.
 #Gw Bikin Ni SC Sama Rizal Susah Payah, Ngerakit Sana Sini Banyak Error, Jgn Seenaknya Ganti Nama Author, Apalagi Ngalihin Botnya. Terima Kasih.
 
@@ -48,7 +46,7 @@ else:
 def banner():
 	print("""
 \033[0;96m    _________ __     
-\033[0;96m   / ____/ (_) /____  \033[0;96m║ \033[0;97mCoded By \033[0;96mARBAB \033[0;97m& \033[0;96mMEMON
+\033[0;96m   / ____/ (_) /____  \033[0;96m║ \033[0;97mCoded By \033[0;96mARBAB \033[0;97mALI \033[0;96mMEMON
 \033[0;96m  / __/ / / / __/ _ \ \033[0;96m║ \033[0;97mTeam \033[0;96m: \033[0;97mETHICAL-404
 \033[0;96m / /___/ / / /_/  __/ \033[0;96m║ \033[0;97mFB \033[0;96m: \033[0;97m923003023263
 \033[0;96m/_____/_/_/\__/\___/  \033[0;96m║ \033[0;97mGithub \033[0;96m: \033[0;97mGithub.com/Ethical-404
@@ -427,7 +425,7 @@ def methode():
   os.system("clear")
   banner()
   print ("\033[0;96m─────────────────────────────────────────────────────────────")
-  print("\033[0;96m╔══\033[0;97m[ Pilih Metode Crack ]")
+  print("\033[0;96m╔══\033[0;97m[ Pilih Arbab Menu Crack ]")
   print("\033[0;96m║")
   print("\033[0;96m╠══\033[0;97m[1] Crack With mbasic")
   print("\033[0;96m╠══\033[0;97m[2] Crack With m.facebook.com")
@@ -495,7 +493,7 @@ class crack:
 				except Exception as e:
 					print ("   %s"%e)
 					continue
-				print ("\033[0;96m╠══\033[0;97m[•] Example : pass123,pass12345")
+				print ("\033[0;96m╠══\033[0;97m[•] Example : arbab123,arbab12345")
 				self.pwlist()
 				break
 			elif f=="d":
@@ -798,7 +796,7 @@ class crack2:
 				except Exception as e:
 					print ("   %s"%e)
 					continue
-				print ("\033[0;96m╠══\033[0;97m[•] Example : pass123,pass12345")
+				print ("\033[0;96m╠══\033[0;97m[•] Example : arbab123,arbab12345")
 				self.pwlist()
 				break
 			elif f=="d":
