@@ -119,9 +119,9 @@ def gets_dict_cookies(cookies):
 		for i in cookies.split("; "):
 			result.update({i.split("=")[0]:i.split("=")[1]})
 		return result
-def gen():
+def arbab():
 	ck=raw_input("   [•] Cookie : ")
-	if ck=="":gen()
+	if ck=="":arbab()
 	try:
 		cks=gets_dict_cookies(ck)
 		if lang(cks)==True:
@@ -130,7 +130,7 @@ def gen():
 			print ('   [!] Login Success').format(G,N)
 			time.sleep(1)
 			menu()
-		else:print("   [!] Invalid Cookie").format(R,N);gen()
+		else:print("   [!] Invalid Cookie").format(R,N);arbab()
 	except Exception as e:
 		print("   [!] Error : %s"%e);gen()
                 logs()
